@@ -1,0 +1,374 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SoftEase | documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 80px;
+            padding-bottom: 20px;
+        }
+
+        .affix {
+            top: 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/light-logo.svg" alt="SoftEase" height="30" />
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="navbar-form navbar-right">
+                    <a href="https://salttechno.ticksy.com/" target="_blank" class="btn btn-default">Online Support</a>
+                </div>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="position: relative;">
+            <div class="col-md-3" >
+                <div class="list-group table-of-contents">
+                    <a class="list-group-item" href="#html">Folder & HTML Structure</a>
+                    <a class="list-group-item" href="#css">CSS, Fonts & Javascripts</a>
+                    <a class="list-group-item" href="#contact">Contact Us Form Setup</a>
+                    <a class="list-group-item" href="#rotator">Word Rotator Setup</a>
+                    <a class="list-group-item" href="#slider">Slider Setup</a>
+                    <a class="list-group-item" href="#credits">Credits</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="jumbotron" id="home">
+                    <div class="container">
+                        <h1>Thank You!</h1>
+                        <p>Thank you for purchasing SoftEase - Software / SaaS Product Website Template. This documentation will help you understand basic structure of the template. If you have any questions that are beyond the scope of this help file, you can create support
+                            ticket at
+                            <a href="https://salttechno.ticksy.com/" target="_blank">https://salttechno.ticksy.com/</a> or email us on support@themesease.com.</p>
+                        <p>
+                            <small class="mr10">Created on: 27-May-2016</small>
+                            <small class="mr10">Version: 1.0.1</small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="alert alert-dismissible alert-warning">
+                    <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                    <h4>For Quicker Support: </h4>
+                    <p>We have dedicated team for support. For quicker response, we request you to use online ticket system at <a href="https://salttechno.ticksy.com/" target="_blank">https://salttechno.ticksy.com/</a>. Email support & comment on ThemeForest might take some extra time for turnaround.</p>
+                </div>
+
+                <div class="pt60" id="html">
+                    <h4>Folder & HTML Structure</h4>
+                    <p>'SoftEase' is a software / SaaS product HTML site template. So, you will need all .html files & supporting .css, .js, .php files with some images. Structure of your template would look like following image.</p>
+                    <img src="img/folder-structure.png" alt="Folder Structure" width="280">
+                    <ul class="mt20">
+                        <li>All .html files are in the root directory.</li>
+                        <li>Separate folders are created for .css, .js files, for fonts & for images.</li>
+                        <li>All fonts other than web-fonts are located in fonts folder.</li>
+                        <li>Mailgun folder is for sending transactional emails.</li>
+                        <li>Important .php files for sending emails are located in root folder.</li>
+                    </ul>
+                    <h6 class="mt30">What do you need to upload to server?</h6>
+                    <p>You will need to upload .html files along with supporting folders provided with this theme. Uploading complete HTML folder (provided with your download) would make it easy for you to setup the theme as shown on demo link.</p>
+                    <h5 class="mt30">HTML Structure</h5>
+                    <p>We are using Bootstrap framework. So, basic HTML structure is same as it is used in Bootstrap.</p>
+                    <p>Following is the basic structure of home page. You can change it as per your need.</p>
+                    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;!-- Bootstrap & Other CSS files --&gt;
+    &lt;/head&gt;
+    &lt;body class="light-header"&gt;
+        &lt;header&gt;
+            &lt;!-- Logo & social links in .container --&gt;
+        &lt;/header&gt;
+        &lt;nav&gt;
+            &lt;!-- Navigation Links --&gt;
+        &lt;/nav&gt;
+        &lt;div&gt;
+            &lt;!-- Home div with images & headline --&gt;
+            &lt;!-- 'Donate Now' button --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- Causes --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- About Us Div --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- Footer --&gt;
+        &lt;/div&gt;
+        &lt;!-- Bootstrap, jQuery & other js files --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+                </div>
+
+                <div class="pt60" id="css">
+                    <h4>CSS, Fonts & Javascripts</h4>
+                    <p>We have compressed all required css files into one css file for optimization. vendor.css located in styles folder is a compressed version of all required css files. Following are the files which are combined to make vendor.css.</p>
+                    <pre>
+&lt;link rel="stylesheet" href="Source-Files/bower_components/bootstrap/dist/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/Yamm3/yamm/yamm.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/animate.css/animate.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/animsition/dist/css/animsition.min.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/Ionicons/css/ionicons.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/font-awesome/css/font-awesome.css"&gt;
+&lt;link rel="stylesheet" href="styles/owl/owl.carousel.css"&gt;
+&lt;link rel="stylesheet" href="styles/owl/owl.theme.default.css"&gt;
+&lt;link rel="stylesheet" href="Source-Files/bower_components/Swiper/dist/css/swiper.min.css"&gt;
+
+&lt;!-- ========== Main Style CSS ========== --&gt;
+&lt;link rel="stylesheet" href="styles/main.css"&gt;
+                    </pre>
+                    <p>We have added index-source.html file for your reference. You can use it if you need uncompressed files.</p>
+                    <p>Following css files are required when you are using it. Add these files before main.css file. Comment in following code tells for what purpose that css file is:</p>
+                    <pre>
+&lt;link rel="stylesheet" href="styles/sweetalert2.min.css"&gt; &lt;!-- For Sweet Alert --&gt;
+                    </pre>
+                    <p>General css classes:</p>
+                    <ul>
+                        <li><code>.page-title</code>: For page title div</li>
+                        <li><code>.underline</code>: For the line under header</li>
+                        <li><code>.se-section</code>: For symantic section on the page. Adds basic styling required for the section.</li>
+                        <li><code>.se-feature</code>: For displaying features</li>
+                        <li><code>.container</code>, <code>.row</code>, <code>.col-*-*</code>: Bootstrap classes for layout & grid. Read more on <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+                        <li><code>.mb*</code>: For margin-bottom. Eg. mb1 for <code>margin-bottom: 1em;</code></li>
+                        <li><code>.mt*</code>: For margin-top. Eg. mt1 for <code>margin-top: 1em;</code></li>
+                        <li><code>.pb*</code>: For padding-bottom. Eg. pb1 for <code>padding-bottom: 1em;</code></li>
+                        <li><code>.pt*</code>: For padding-top. Eg. pb2 for <code>padding-top: 1em;</code></li>
+                        <li><code>.btn.se-btn</code>: For styled button</li>
+                    </ul>
+
+                    <h5 class="mt30">Fonts</h5>
+                    We have used 2 different web fonts for text in this theme. 'Montserrat' is used for headlines and 'Open Sans' is used body text. Following two lines of code fetch web fonts from Google.
+                    <pre>
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+                    </pre>
+
+                    We have used two different font icons for wider variety of icons. Following two lines are for these font icons:
+                    <pre>
+&lt;link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css"&gt;
+&lt;link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"&gt;
+                    </pre>
+
+                    <h5 class="mt30">Javascripts</h5>
+                    <p>Again, we have compressed all required js files into one js file (plugins.js) for optimization. Following js files are combined & compressed in plugins.js.</p>
+                    <pre>
+&lt;script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/animsition/dist/js/animsition.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/matchHeight/jquery.matchHeight-min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/parallax.js/parallax.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/particles.js/particles.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/scrollreveal/dist/scrollreveal.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/textillate/assets/jquery.lettering.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/textillate/jquery.textillate.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/owl/owl.carousel.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/waypoints/lib/jquery.waypoints.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/jquery.counterup/jquery.counterup.min.js"&gt;&lt;/script&gt;
+&lt;script src="/bower_components/Swiper/dist/js/swiper.jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- ========== Main js file ========== --&gt;
+&lt;script src="scripts/main.js"&gt;&lt;/script&gt; &lt;!-- Main custom javascript file --&gt;
+                    </pre>
+                </div>
+
+
+
+                <div class="pt60" id="contact">
+                    <h4>Contact Us Form Setup</h4>
+                    <p>We have integrated mailgun for uninterrupted transactional emails. You can use this free service for 10,000 emails every month. Visit mailgun.com for more information.</p>
+                    <p>It is already integrated and ready to use. You just need to put your <b>domain details & api-key</b> in settings file.</p>
+                    <ol>
+                        <li>Create account on mailgun.com for free.</li>
+                        <li>You can use sandbox domain that you get or you can add your own domain with some simple steps provided at their website.</li>
+                        <li>You will need two important factors from your mailgun account. 1. Domain Name. 2. API Key</li>
+                        <li>Click on 'domains' link from navigation.</li>
+                        <li>Select the sandbox domain.</li>
+                        <li>On this screen on mailgun.com, you will get both details.</li>
+                        <li>Open mailgun-settings.php file which is included in your theme's downloaded folder.</li>
+                        <li>
+                            Paste mailgun domain name & API key here.
+                            <img src="img/mailgun-settings.png" alt="Mailgun Settings" width="600">
+                        </li>
+                        <li>
+                            Enter your email address in <code>$yourEmail</code> variable, where you want to receive emails from website. Replace <code>support@themesease.com</code> with your email id.
+                            <img src="img/mailgun-settings-2.png" alt="Mailgun Settings" width="800">
+                        </li>
+                        <li>
+                            You can change additional settings for email in same file. These are optional changes.
+                            <img src="img/mailgun-settings-3.png" alt="Mailgun Settings" width="800">
+                        </li>
+                    </ol>
+                    <p>Make sure you have uploaded 'Mailgun' folder provided with your theme download.</p>
+                </div>
+
+
+                <div class="pt60" id="rotator">
+                    <h4>Word Rotator Setup</h4>
+                    <p>We use <a href="http://textillate.js.org/" target="_blank">textillate</a> library for animating words. jQuery and animate.css files are required for this one to work. Make sure you have included both of them.</p>
+                    <p>Add this line where you want to show word rotator:</p>
+                    <pre>
+&lt;div class="white-color h1" id="animated-text"&gt;
+    &lt;ul class="texts"&gt;
+        &lt;li data-in-effect="fadeInUp" data-out-effect="fadeOutDown"&gt;Create fully responsive website.&lt;/li&gt;
+        &lt;li data-in-effect="fadeInUp" data-out-effect="fadeOutDown"&gt;Top class template for software product.&lt;/li&gt;
+        &lt;li data-in-effect="fadeInUp" data-out-effect="fadeOutDown"&gt;Specially designed for technical products.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+                    </pre>
+                    <p>Following javascript code triggers word rotation:</p>
+                    <pre>
+// For Text Rotator
+$('.animate-title').textillate({
+	loop: true,
+	type: 'word',
+	in: {
+		delay: 120
+	},
+	out: {
+		delay: 120
+	}
+});
+                    </pre>
+                    <p>You can use different animations with these words easily. Refer <a href="http://textillate.js.org/" target="_blank">http://textillate.js.org/</a> for more details.</p>
+                </div>
+
+
+
+                <div class="pt60" id="slider">
+                    <h4>Slider Images</h4>
+                    <p>We use <a href="http://idangero.us/swiper/" target="_blank">swiper</a> library with jQuery for home page sliders. You can change slider images from <code>data-slide-img</code> attribute. Following code in HTML file displays slider:</p>
+                    <pre>
+&lt;div class="swiper-wrapper" id="swiper"&gt;
+    &lt;!-- Slides --&gt;
+    &lt;div class="swiper-slide" data-slide-img="images/bg-img-4.jpg"&gt;
+        &lt;div class="slide-text"&gt;
+            &lt;div class="outer"&gt;
+                &lt;div class="inner"&gt;
+                    &lt;h1 class="white-color"&gt;Increase Your Profit Margin&lt;/h1&gt;
+                    &lt;h6 class="white-color"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&lt;/h6&gt;
+                &lt;/div&gt; &lt;!-- end inner --&gt;
+            &lt;/div&gt; &lt;!-- end outer --&gt;
+        &lt;/div&gt; &lt;!-- end slide-text --&gt;
+    &lt;/div&gt; &lt;!-- end swiper-slide --&gt;
+
+    &lt;div class="swiper-slide" data-slide-img="images/bg-img-5.jpg"&gt;
+        &lt;div class="slide-text"&gt;
+            &lt;div class="outer"&gt;
+                &lt;div class="inner"&gt;
+                    &lt;h1 class="white-color"&gt;Works Perfect On Every Device&lt;/h1&gt;
+                    &lt;h6 class="white-color"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&lt;/h6&gt;
+                &lt;/div&gt; &lt;!-- end inner --&gt;
+            &lt;/div&gt; &lt;!-- end outer --&gt;
+        &lt;/div&gt; &lt;!-- end slide-text --&gt;
+    &lt;/div&gt; &lt;!-- end swiper-slide --&gt;
+
+    &lt;div class="swiper-slide" data-slide-img="images/bg-img-6.jpg"&gt;
+        &lt;div class="slide-text"&gt;
+            &lt;div class="outer"&gt;
+                &lt;div class="inner"&gt;
+                    &lt;h1 class="white-color"&gt;Designed To Create First Impression&lt;/h1&gt;
+                    &lt;h6 class="white-color"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&lt;/h6&gt;
+                &lt;/div&gt; &lt;!-- end inner --&gt;
+            &lt;/div&gt; &lt;!-- end outer --&gt;
+        &lt;/div&gt; &lt;!-- end slide-text --&gt;
+    &lt;/div&gt; &lt;!-- end swiper-slide --&gt;
+&lt;/div&gt; &lt;!-- end swiper-wrapper --&gt;
+                    </pre>
+
+                    <p>As you can see, ids 'slide-1', 'slide-2' etc need to used for changing background image from css file.</p>
+
+                    <h5 class="mt30">Image Gallery</h5>
+                    <p>We use <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">owl carousel</a> for image gallery. You can change images in gallery directly from HTML. Following is the sample code:</p>
+                    <pre>
+&lt;div class="owl-carousel owl-carousel-single "&gt;
+	&lt;div class="text-center"&gt;
+		&lt;img src="images/kids-img-3.jpg" alt="Sample Image" /&gt;
+	&lt;/div&gt; &lt;!-- end one slide --&gt;
+	&lt;div class="text-center"&gt;
+		&lt;img src="images/kids-img-2.jpg" alt="Sample Image" /&gt;
+	&lt;/div&gt; &lt;!-- end one slide --&gt;
+	&lt;div class="text-center"&gt;
+		&lt;img src="images/kids-img-1.jpg" alt="Sample Image" /&gt;
+	&lt;/div&gt; &lt;!-- end one slide --&gt;
+&lt;/div&gt; &lt;!-- end owl-carousel --&gt;
+                    </pre>
+                </div>
+
+
+
+                <div class="pt60" id="credits">
+                    <h4>Credits</h4>
+                    <ul>
+                        <li>jQuery - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+                        <li>Bootstrap - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a> </li>
+                        <li>animate.css - <a href="https://daneden.github.io/animate.css/" target="_blank">https://daneden.github.io/animate.css/</a></li>
+                        <li>Sweet Alert - <a href="http://t4t5.github.io/sweetalert/" target="_blank">http://t4t5.github.io/sweetalert/</a></li>
+                        <li>FontAwesome - <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">http://fortawesome.github.io/Font-Awesome/</a></li>
+                        <li>jQuery.Form - <a href="http://malsup.com/jquery/form/" target="_blank">http://malsup.com/jquery/form/</a></li>
+                        <li>Pixabay - <a href="https://pixabay.com" target="_blank">https://pixabay.com</a></li>
+                        <li>Unslpash - <a href="https://unsplash.com/" target="_blank">https://unsplash.com/</a></li>
+                        <li>Unslpash - <a href="https://unsplash.com/" target="_blank">https://unsplash.com/</a></li>
+                        <li>Dashboard image inspired by - <a href="https://dribbble.com/shots/2434528-IM-Chat-Dashboard-PSD" target="_blank">https://dribbble.com/Matt_Thompson</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class="pt80" id="" style="height: 500px;">
+
+                </div> -->
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p>&copy; Salt Web Technologies Pvt Ltd 2016</p>
+        </footer>
+    </div>
+    <!-- /container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

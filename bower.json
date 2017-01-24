@@ -1,0 +1,36 @@
+{
+  "name": "softease",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "parallax.js": "^1.4.2",
+    "animate.css": "^3.5.1",
+    "hover": "Hover#^2.0.2",
+    "waypoints": "^4.0.0",
+    "textillate": "^0.4.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "font-awesome": "^4.6.1",
+    "typographic": "^2.9.3",
+    "Yamm3": "yamm3#^1.1.0",
+    "animsition": "^4.0.2",
+    "matchHeight": "^0.7.0",
+    "particles.js": "^2.0.0",
+    "scrollreveal": "^3.1.4",
+    "jquery.counterup": "^2.0.4",
+    "Swiper": "swiper#^3.3.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
