@@ -12,7 +12,7 @@ $(function(){
       shape:{
         type:"image",
         stroke:{width:0,color:"#000"},
-        image:{src:"./images/head.png",width:100,height:100}
+        image:{src:"./images/33.png",width:100,height:100}
       },
       opacity:{
         value:.3,
