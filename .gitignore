@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+.env
+.env_dev
+.env_staging
+process.json
+.DS_Store
+test-reports/
