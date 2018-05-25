@@ -35,13 +35,23 @@
       "jquery": true
     },
     "rules": {
-        "quotes": [2, "double"],
-        "new-cap": [2, { "capIsNewExceptions": ["Morphext"] }]
-  },
-  "globals": {
-        "particlesJS": true,
-        "Swiper": true,
-        "ScrollReveal": true
+      "quotes": [
+        2,
+        "double"
+      ],
+      "new-cap": [
+        2,
+        {
+          "capIsNewExceptions": [
+            "Morphext"
+          ]
+        }
+      ]
+    },
+    "globals": {
+      "particlesJS": true,
+      "Swiper": true,
+      "ScrollReveal": true
     }
   }
 }
