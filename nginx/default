@@ -9,8 +9,10 @@ server {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
                 # proxy_pass http://localhost:8080;
+		default_type "text/html";
 		root /home/ubuntu/botimize-landing/HTML;
 		index index.html;
+		try_files $uri $uri.html $uri/index.html index.html;
 	}
 
 	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000

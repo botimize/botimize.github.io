@@ -4,7 +4,9 @@ server {
 
 	location / {
                 root /home/ubuntu/botimize-landing/HTML;
+		default_type "text/html";
                 index index.html;
+		try_files $uri $uri.html $uri/index.html index.html;
 	}
 
 	if ($scheme != "https") {
